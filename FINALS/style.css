@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #AA336A;
+    background-image: url('sakura7.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: #F8E8EE;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+    height: 90%;
+    max-height: 600px;
+    border: 5px solid #AA336A;
+    overflow-y: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+form button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F2BED1;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li-box {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #AA336A;
+}
+
+li span {
+    margin-left: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+}
+
+.pink-image {
+    height: auto;
+    width: 150px;
+    position: absolute;
+    top: -70%;
+    transform: translateX(90%);
+}
+
+.pink-image1 {
+    height: auto;
+    width: 150px;
+    position: absolute;
+    top: -70%;
+    transform: translateX(-180%);
+}
+
+@media only screen and (max-width: 768px) {
+    .pink-image, .pink-image1 {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pink-image, .pink-image1 {
+        width: 80px;
+    }
+}
